@@ -1,1 +1,31 @@
-.top-line 
+body {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* top line */
+
+.header-top {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.top-line-nav .link {
+  color: #212121;
+}
+
+.top-line-nav .link:hover,
+.top-line-nav .link:focus {
+  color: #2196F3;
+}
+
+.top-line-nav .link-current {
+  color: #2196F3;
+}
