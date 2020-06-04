@@ -9,13 +9,14 @@
   --logo-font: Raleway, sans-serif;
 }
 
-body {
+main {
   font-family: var(--font-family);
 }
 
 /* top line, header */
 
 .header-top {
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -228,6 +229,46 @@ font-family: var(--logo-font);
   text-align: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
+}
+
+
+/*PORTFOLIO*/
+
+.portfolio-container ul {
+  list-style: none;
+}
+
+.portfolio-container ul a {
+  text-decoration-line: none;
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+.portfolio-subtitle {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+}
+
+.portfolio-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: 0.03em;
 }
 
 
